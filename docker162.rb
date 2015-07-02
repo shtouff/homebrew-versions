@@ -1,13 +1,8 @@
 class Docker162 < Formula
   homepage "https://www.docker.com/"
   url "https://github.com/docker/docker.git",
-      :tag => "v1.6.2"
-
-  bottle do
-    root_url "https://homebrew.bintray.com/bottles-versions"
-    cellar :any
-    sha256 "9051cbcbd0f71ab148614544c418cd9deea2723cc5f5555fb688a11306e40546" => :yosemite
-  end
+      :tag => "v1.6.2",
+      :revision => "7c8fca2ddb58c8d2c4fb4df31c242886df7dd257"
 
   option "without-completions", "Disable bash/zsh completions"
 
