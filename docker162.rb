@@ -1,4 +1,5 @@
 class Docker162 < Formula
+  desc "The Docker framework for containers"
   homepage "https://www.docker.com/"
   url "https://github.com/docker/docker.git",
       :tag => "v1.6.2",
